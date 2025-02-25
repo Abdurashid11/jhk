@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", serif;
+}
+span{
+    color: black;
+}
+body{
+    background: #F4A764;
+}
+.swiper-button-prev{
+    color: white;
+}
+.swiper{
+    width: 400px;
+    height: 400px;
+    padding: 0px 300px 0px 0px;
+}
+.swiper-slide img{
+    width: 400px;
+    height: 470px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0px 100px;
+}
+.div1 ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.div1 button{
+    width: 100px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 0px 30px;
+}
+.div2{
+    display: flex;
+}
+.div11{
+    color: white;
+    margin: 130px 0px 0px 100px; 
+    display: flex;
+}
+.div11 h1{
+    font-size: 50px;
+}
+.div11 .h2{
+    font-size: 36px;
+    margin: 0px 0px 60px 0px;
+}
+.div11 p{
+    color: black;
+    margin: 0px 0px 5px 0px;
+}
+.div11 .h22{
+    margin: 50px 0px 50px 0px;
+    font-size: 50px;
+}
+.div11 .img{
+    width: 160px;
+    height: 40px;
+}
